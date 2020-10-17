@@ -20,10 +20,15 @@
 		--web-view-ids: Home_Page;
 	}
 	#video-container {
-    position: relative;
-    padding-top: 77.67%;
+    position: absolute;
+		margin-top: 1000px;
+		margin-left: 345px;
+		margin-right: 200px;
 
-    background-size: 100% auto;
+
+		align-content: center;
+
+
  }
 	* {
 		margin: 0;
@@ -34,7 +39,7 @@
 	#Home_Page {
 		position: absolute;
 		width: 1920px;
-		height: 997px;
+		height: 2920px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 		--web-view-name: Home Page;
@@ -3113,10 +3118,13 @@ window.application = new Application();
 	<div onclick="application.goToTargetView(event)" id="About_Us">
 		<span>About Us</span>
   </div>
-	<div id="video-container">
-	<iframe src="https://www.youtube.com/watch?v=WSnCYWs-eHY" ></iframe>
-	</div>
+
 </div>
+<div id="video-container">
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/GV1CV79Gr4k&t=256s" frameborder="0" ></iframe>
+
+</div>
+
 
 
 
