@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home Page</title>
 <style id="applicationStylesheet" type="text/css">
+#video-container {
+	position: absolute;
+	margin-top: 700px;
+	margin-left: 345px;
+	margin-right: 200px;
+
+
+	align-content: center;
+
+
+}
+#We_operate_out_of_Vellore_Inst {
+	left: 33px;
+	top: 1300px;
+	position: absolute;
+	overflow: visible;
+
+	white-space: nowrap;
+	text-align: left;
+	font-family: Candara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(233,233,233,1);
+}
+
 	.mediaViewInfo {
 		--web-view-name: Home Page;
 		--web-view-id: Home_Page;
@@ -19,17 +43,6 @@
 	:root {
 		--web-view-ids: Home_Page;
 	}
-	#video-container {
-    position: absolute;
-		margin-top: 1000px;
-		margin-left: 345px;
-		margin-right: 200px;
-
-
-		align-content: center;
-
-
- }
 	* {
 		margin: 0;
 		padding: 0;
@@ -38,8 +51,8 @@
 	}
 	#Home_Page {
 		position: absolute;
-		width: 1920px;
-		height: 2920px;
+		width: 2100px;
+		height: 2309px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 		--web-view-name: Home Page;
@@ -61,36 +74,37 @@
 	}
 	#BG-Splash {
 		position: absolute;
-		width: 2399px;
-		height: 2300px;
-		left: -145px;
-		top: -610px;
+		width: 3030px;
+		height: 2887px;
+		left: -309px;
+		top: -334px;
 		overflow: visible;
 	}
-	#Rectangle_3 {
+	#Path_1 {
 		opacity: 0.2;
 		fill: rgba(28,28,28,1);
 	}
-	.Rectangle_3 {
-		position: absolute;
+	.Path_1 {
 		overflow: visible;
-		width: 2077px;
-		height: 1206px;
-		left: -82px;
-		top: -38px;
+		position: absolute;
+		width: 2148px;
+		height: 2454.502px;
+		left: 0px;
+		top: 0.497px;
+		transform: matrix(1,0,0,1,0,0);
 	}
 	#Logo_Main-01 {
 		position: absolute;
 		width: 806px;
-		height: 1139px;
-		left: 557px;
-		top: -209px;
+		height: 861px;
+		left: 765px;
+		top: -146px;
 		overflow: visible;
 	}
 	#Logo_Main-01_m {
 		position: absolute;
-		width: 806px;
-		height: 1139px;
+		width: 609px;
+		height: 861px;
 		left: 0px;
 		top: 0px;
 		overflow: visible;
@@ -103,15 +117,15 @@
 		overflow: visible;
 		width: 883px;
 		height: 83px;
-		left: 519px;
-		top: 847px;
+		left: 609px;
+		top: 697px;
 	}
 	#Component_1__1 {
 		position: absolute;
 		width: 256px;
 		height: 83px;
-		left: 519px;
-		top: 847px;
+		left: 609px;
+		top: 697px;
 		overflow: visible;
 	}
 	#Rectangle_36 {
@@ -129,8 +143,8 @@
 		position: absolute;
 		width: 337px;
 		height: 83px;
-		left: 792px;
-		top: 847px;
+		left: 882px;
+		top: 697px;
 		overflow: visible;
 	}
 	#Rectangle_37 {
@@ -148,8 +162,8 @@
 		position: absolute;
 		width: 255px;
 		height: 83px;
-		left: 1147px;
-		top: 847px;
+		left: 1237px;
+		top: 697px;
 		overflow: visible;
 	}
 	#Rectangle_38 {
@@ -164,22 +178,22 @@
 		top: 0px;
 	}
 	#VIT_Chennais_Official_Radio_St {
-		left: 434px;
-		top: 715px;
+		left: 617px;
+		top: 577px;
 		position: absolute;
 		overflow: visible;
-		width: 1054px;
+		width: 896px;
 		white-space: nowrap;
 		text-align: left;
 		font-family: Montserrat;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 60px;
+		font-size: 51px;
 		color: rgba(233,233,233,1);
 	}
 	#Spotlight {
-		left: 550px;
-		top: 863px;
+		left: 640px;
+		top: 713px;
 		position: absolute;
 		overflow: visible;
 		width: 196px;
@@ -196,8 +210,8 @@
 		color: rgba(44,44,44,1);
 	}
 	#Video_Gallery {
-		left: 822px;
-		top: 863px;
+		left: 912px;
+		top: 713px;
 		position: absolute;
 		overflow: visible;
 		width: 277px;
@@ -214,8 +228,8 @@
 		color: rgba(44,44,44,1);
 	}
 	#About_Us {
-		left: 1177px;
-		top: 863px;
+		left: 1267px;
+		top: 713px;
 		position: absolute;
 		overflow: visible;
 		width: 196px;
@@ -3070,17 +3084,25 @@ var Application = function() {
 
 window.application = new Application();
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+ <script>
+	 WebFont.load({
+		 google: {
+			 families: ["Cookie:regular"]
+		 }
+	 });
+</script>
 </head>
 <body>
 
 <div id="Home_Page">
 	<img id="BG-Splash" src="BG-Splash.png" srcset="BG-Splash.png 1x, BG-Splash@2x.png 2x">
-	<svg class="Rectangle_3">
-		<rect id="Rectangle_3" rx="0" ry="0" x="0" y="0" width="2077" height="1206">
-		</rect>
+	<svg class="Path_1" viewBox="0 0 2148 2454.503">
+		<path id="Path_1" d="M 0 4.401379108428955 L 2148 0 L 2148 2454.502685546875 L 0 2454.502685546875 L 0 4.401379108428955 Z">
+		</path>
 	</svg>
 	<div id="Logo_Main-01" class="Logo_Main_01">
-		<img id="Logo_Main-01_m" src="Logo_Main-01_m.png" srcset="Logo_Main-01.png 1x, Logo_Main-01_m@2x.png 2x">
+		<img id="Logo_Main-01_m" src="Logo_Main-01_m.png" srcset="Logo_Main-01_m.png 1x, Logo_Main-01_m@2x.png 2x">
 	</div>
 	<svg class="Rectangle_1">
 		<rect id="Rectangle_1" rx="41.5" ry="41.5" x="0" y="0" width="883" height="83">
@@ -3106,8 +3128,6 @@ window.application = new Application();
 	</div>
 	<div id="VIT_Chennais_Official_Radio_St">
 		<span>VIT Chennai's Official Radio Station</span>
-
-
 	</div>
 	<div onclick="application.goToTargetView(event)" id="Spotlight">
 		<span>Spotlight</span>
@@ -3117,22 +3137,18 @@ window.application = new Application();
 	</div>
 	<div onclick="application.goToTargetView(event)" id="About_Us">
 		<span>About Us</span>
-  </div>
-
+	</div>
 </div>
 <div id="video-container">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/GV1CV79Gr4k&t=256s" frameborder="0" ></iframe>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/GV1CV79Gr4k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
+<div id="We_operate_out_of_Vellore_Inst" >
+"VOICE - IT is the first ever radio station of VIT University, chennai. It's the voice of the campus. Provides you<br>
+	 with best resource for exploration with blooming ideas from enticed people. It's the best source of quality<br> entertainment and knowledge along the way.
+We are new and fresh, not bound to any normacy and repetitions. <br>It's here to make sure that everyone on campus has a chance to voice themselves and let their voice be heard<br> everywhere to the community of VIT chennai."
 
-
-
-
-
-
-
-
-
+</div>
 
 
 
